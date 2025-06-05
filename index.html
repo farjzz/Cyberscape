@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberscape</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game">
+        <canvas id="canvas" height="1680px" width="3600px"></canvas>
+        <div class="box">
+            <p class="txt">Player Health: <span id="playerHealth">100</span></p>
+            <p class="txt">System Health: <span id="sysHealth">100</span></p>
+            <p class="txt">Keys: <span id="keys">0</span></p>
+            <p class="txt">Shrads Delivered: <span id="shrads">0</span></p>
+            <p class="txt">High Score: <span id="score">0</span></p>
+        </div>
+        <div class="button">
+            <button id="pause" onclick="pause()">Pause</button>
+            <button id="resume" disabled onclick="resume()">Resume</button>
+            <button id="reset" onclick="reset()">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
