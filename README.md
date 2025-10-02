@@ -7,7 +7,7 @@ Meanwhile, rotating surveillance towers and decaying system health create consta
 ## Gameplay
 
 - Use the **arrow keys** (`↑ ↓ ← →`) to move your player around the map
-- Collect keys (pink circles). Every **3 keys** allows the player to pick up one **shrad**(💠) from the central hub
+- Collect keys (pink circles). Every **3 keys** allows the player to pick up one **shrad** (💠) from the central hub
 - Deliver shrads to the **base station** (blue circle) to restore the constantly decreasing **system health**
 - If system health hits 0, the system collapses and the game ends
 - **Surveillance towers** (red cones) damage the player and the game ends if player health hits 0
@@ -27,9 +27,9 @@ Meanwhile, rotating surveillance towers and decaying system health create consta
 
 ## Getting Started
 
-1. Clone or download this repository.  
-2. Open `index.html` in any modern browser.  
-3. Start playing!  
+1. Clone or download this repository
+2. Open `index.html` in any modern browser
+3. Start playing!
 
 ## Tech Stack
 
